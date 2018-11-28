@@ -22,8 +22,8 @@ import math
 
 def main():
     print(calc_hypotenuse(6, 9))
-    speedyturtle('blue', 10)
-    speedyturtle('magenta', 3000)
+    thiccturtle('blue', 10)
+    thiccturtle('magenta', 3000)
     """
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
@@ -73,7 +73,7 @@ def calc_hypotenuse(a, b):
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
-def speedyturtle(color, thickness):
+def thiccturtle(color, thickness):
     window = rg.TurtleWindow()
 
     turtle1 = rg.SimpleTurtle('turtle')
